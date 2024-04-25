@@ -1160,7 +1160,7 @@ Multiplies attack speed in unarmed combat by ${Math.round((skills["Unarmed"].get
                                                     "max_health": 1.05,
                                                 },
                                                 xp_multipliers: {
-                                                    all: 15,
+                                                    all_skills: 5,
                                                 }
                                             },
                                             4: {
@@ -1171,7 +1171,7 @@ Multiplies attack speed in unarmed combat by ${Math.round((skills["Unarmed"].get
                                                     "max_health": 1.05,
                                                 },
                                                 xp_multipliers: {
-                                                    all: 15,
+                                                    all_skills: 5,
                                                 },
                                             },
                                             5: {
@@ -1189,7 +1189,7 @@ Multiplies attack speed in unarmed combat by ${Math.round((skills["Unarmed"].get
                                                     "max_health": 1.05,
                                                 },
                                                 xp_multipliers: {
-                                                    all: 15,
+                                                    all_skills: 5,
                                                     "Meditation": 1.1,
                                                 }
                                             },
@@ -1201,7 +1201,7 @@ Multiplies attack speed in unarmed combat by ${Math.round((skills["Unarmed"].get
                                                     "max_health": 1.05,
                                                 },
                                                 xp_multipliers: {
-                                                    all: 15,
+                                                    all_skills: 5,
                                                 }
                                             },
                                             10: {
