@@ -1065,10 +1065,10 @@ Multiplies attack speed in unarmed combat by ${Math.round((skills["Unarmed"].get
     skills["Farming"] = new Skill({skill_id: "Farming", 
                                 names: {0: "Farming"}, 
                                 description: "Even a simple action of plowing some fields, can be performed better with skills and experience",
-                                base_xp_cost: 4,
+                                base_xp_cost: 1,
                                 max_level: 250,
                                 xp_scaling: 1,
-                                max_level_coefficient: 1.1,
+                                max_level_coefficient: 16,
                                 rewards: {
                                     milestones: {
                                         1: {
