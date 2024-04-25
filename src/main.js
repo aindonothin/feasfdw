@@ -90,7 +90,6 @@ let current_stance = "normal";
 const faved_stances = {};
 
 const tickrate = 20; 
-
 //how many ticks per second
 //1 is the default value; going too high might make the game unstable
 
