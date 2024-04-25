@@ -1217,8 +1217,8 @@ Multiplies attack speed in unarmed combat by ${Math.round((skills["Unarmed"].get
                                                 },
                                                 xp_multipliers: {
                                                     all: 1.05,
-                                                    "Meditation": 1.1,
                                                     all_skill: 1.05
+                                                    "Meditation": 1.1,
                                                 }
                                             }
                                         }
