@@ -926,7 +926,7 @@ class LocationType{
             get_payment: () => {return 30},
             is_unlocked: false,
             infinite: true,
-            working_period: 60*2,
+            working_period: 1,
             skill_xp_per_tick: 1
         })
     };
@@ -955,7 +955,7 @@ class LocationType{
                 return 20 + Math.round(20 * skills["Farming"].current_level * 20);
             },
             is_unlocked: false,
-            working_period: 60*2,
+            working_period: 1,
             availability_time: {start: 6, end: 20},
             skill_xp_per_tick: 2,
         }),
