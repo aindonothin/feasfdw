@@ -884,7 +884,7 @@ class LocationType{
             activity: "fieldwork",
             starting_text: "Work on the fields",
             get_payment: () => {
-                return 10 + Math.round(15 * skills["Farming"].current_level/skills["Farming"].max_level);
+                return 10 + Math.round(15 * skills["Farming"].current_level) * 10;
             },
             is_unlocked: false,
             working_period: 60*2,
@@ -952,7 +952,7 @@ class LocationType{
             activity: "fieldwork",
             starting_text: "Work on the fields",
             get_payment: () => {
-                return 20 + Math.round(20 * skills["Farming"].current_level/skills["Farming"].max_level);
+                return 20 + Math.round(20 * skills["Farming"].current_level * 20);
             },
             is_unlocked: false,
             working_period: 60*2,
