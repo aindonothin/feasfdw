@@ -889,20 +889,20 @@ class LocationType{
             is_unlocked: false,
             working_period: 1,
             availability_time: {start: 6, end: 20},
-            skill_xp_per_tick: 1, 
+            skill_xp_per_tick: 1000, 
         }),
         "running": new LocationActivity({
             activity: "running",
             infinite: true,
             starting_text: "Go for a run around the village",
-            skill_xp_per_tick: 1,
+            skill_xp_per_tick: 1000,
             is_unlocked: false,
         }),
         "weightlifting": new LocationActivity({
             activity: "weightlifting",
             infinite: true,
             starting_text: "Try to carry some bags of grain",
-            skill_xp_per_tick: 1,
+            skill_xp_per_tick: 1000,
             is_unlocked: false,
         }),
         "balancing": new LocationActivity({
@@ -910,24 +910,24 @@ class LocationType{
             infinite: true,
             starting_text: "Try to keep your balance on rocks in the river",
             unlock_text: "All this fighting while surrounded by stone and rocks gives you a new idea",
-            skill_xp_per_tick: 1,
+            skill_xp_per_tick: 1000,
             is_unlocked: false,
         }),
         "meditating": new LocationActivity({
             activity: "meditating",
             infinite: true,
             starting_text: "Sit down and meditate",
-            skill_xp_per_tick: 1,
+            skill_xp_per_tick: 1000,
             is_unlocked: true,
         }),
         "patrolling": new LocationActivity({
             activity: "patrolling",
             starting_text: "Go on a patrol around the village.",
-            get_payment: () => {return 30},
+            get_payment: () => {return 3000},
             is_unlocked: false,
             infinite: true,
             working_period: 1,
-            skill_xp_per_tick: 1
+            skill_xp_per_tick: 1000
         })
     };
     locations["Nearby cave"].activities = {
@@ -935,7 +935,7 @@ class LocationType{
             activity: "weightlifting",
             infinite: true,
             starting_text: "Try lifting some of the rocks",
-            skill_xp_per_tick: 3,
+            skill_xp_per_tick: 3000,
             is_unlocked: false
         }),
     };
@@ -944,7 +944,7 @@ class LocationType{
             activity: "running",
             infinite: true,
             starting_text: "Go for a run through the forest",
-            skill_xp_per_tick: 3,
+            skill_xp_per_tick: 3000,
         }),
     };
     locations["Town farms"].activities = {
@@ -957,7 +957,7 @@ class LocationType{
             is_unlocked: false,
             working_period: 1,
             availability_time: {start: 6, end: 20},
-            skill_xp_per_tick: 2,
+            skill_xp_per_tick: 2000,
         }),
     };
 })();
