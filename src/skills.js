@@ -1146,7 +1146,7 @@ Multiplies attack speed in unarmed combat by ${Math.round((skills["Unarmed"].get
     skills["Sleeping"] = new Skill({skill_id: "Sleeping",
                                     names: {0: "Sleeping"}, 
                                     description: "Good, regular sleep is the basis of getting stronger and helps your body heal.",
-                                    base_xp_cost: 1000,
+                                    base_xp_cost: 1,
                                     xp_scaling: 2,
                                     max_level: 10,
                                     max_level_coefficient: 2.5,    
