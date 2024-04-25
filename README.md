@@ -13,3 +13,4 @@ Dev release: https://miktaew.github.io/yet-another-idle-rpg-dev/
 
 Expect complete lack of gameplay balance and a lot of bugs, some potentialy gamebreaking.  
 Using the "export" feature every now and then is highly recommended.
+this is just an overcomplicated fork i made bcause im a fucking idiot and cant figure out how to run it locally :(
