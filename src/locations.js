@@ -887,7 +887,7 @@ class LocationType{
                 return 10 + Math.round(15 * skills["Farming"].current_level) * 10;
             },
             is_unlocked: false,
-            working_period: 60*2,
+            working_period: 1,
             availability_time: {start: 6, end: 20},
             skill_xp_per_tick: 1, 
         }),
