@@ -89,13 +89,8 @@ let selected_stance = "normal";
 let current_stance = "normal";
 const faved_stances = {};
 
-var tickrate = 1; 
-if(e.keyCode == 38 ) {
-var tickrate = 1;
-} 
-if(e.keyCode == 40 ) { 
-var tickrate = 60; 
-}
+const tickrate = 1; 
+
 //how many ticks per second
 //1 is the default value; going too high might make the game unstable
 
