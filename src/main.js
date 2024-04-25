@@ -71,7 +71,7 @@ let last_combat_location = null;
 let is_reading = null;
 
 //ticks between saves, 60 = ~1 minute
-let save_period = 60;
+let save_period = 1200;
 let save_counter = 0;
 
 //accumulates deviations
@@ -89,7 +89,7 @@ let selected_stance = "normal";
 let current_stance = "normal";
 const faved_stances = {};
 
-const tickrate = 1;
+const tickrate = 20;
 //how many ticks per second
 //1 is the default value; going too high might make the game unstable
 
