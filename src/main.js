@@ -90,6 +90,10 @@ let current_stance = "normal";
 const faved_stances = {};
 
 const tickrate = 60;
+      if event.key == pygame.K_UP:
+         tickrate =+ 59
+      if event.key == pygame.K_DOWN
+         tickrate =- 59
 //how many ticks per second
 //1 is the default value; going too high might make the game unstable
 
