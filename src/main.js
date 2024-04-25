@@ -89,29 +89,13 @@ let selected_stance = "normal";
 let current_stance = "normal";
 const faved_stances = {};
 
+const tickrate = 1; 
+if(e.keyCode == 38 ) {
 const tickrate = 1;
-var readline = require('readline');
-
-readline.emitKeypressEvents(process.stdin);
-
-if (process.stdin.isTTY)
-    process.stdin.setRawMode(true);
-
-process.stdin.on('keypress', (chunk, key) => {
-  if (key && key.name == '8')
-  const tickrate = 1;
-});
-var readline = require('readline');
-
-readline.emitKeypressEvents(process.stdin);
-
-if (process.stdin.isTTY)
-    process.stdin.setRawMode(true);
-
-process.stdin.on('keypress', (chunk, key) => {
-  if (key && key.name == '9')
-  const tickrate = 60;
-});
+} 
+if(e.keyCode == 40 ) { 
+const tickrate = 60; 
+}
 //how many ticks per second
 //1 is the default value; going too high might make the game unstable
 
