@@ -1161,7 +1161,7 @@ Multiplies attack speed in unarmed combat by ${Math.round((skills["Unarmed"].get
                                                 },
                                                 xp_multipliers: {
                                                     all_skills: 5,
-                                                }
+                                                },
                                             },
                                             4: {
                                                 stats: {
@@ -1172,7 +1172,7 @@ Multiplies attack speed in unarmed combat by ${Math.round((skills["Unarmed"].get
                                                 },
                                                 xp_multipliers: {
                                                     all_skills: 5,
-                                                },
+                                                }
                                             },
                                             5: {
                                                 unlocks: {
